@@ -1,38 +1,38 @@
-[
+// [
     
-    {
-        "id":1,
-        "images":"https://ibb.co/0hc4W0w",
-        "name":"Masuma",
-        "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript",
-        "Description":"",
-        "Details":""
-    } ,
+//     {
+//         "id":1,
+//         "images":"",
+//         "name":"Masuma",
+//         "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript",
+//         "Description":"",
+//         "Details":""
+//     } ,
 
-    {
-        "id":2,
-        "images":"",
-        "name":"Mazeda",
-        "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript, PSD to HTML",
-        "Description":"",
-        "Details":"" 
-    },
+//     {
+//         "id":2,
+//         "images":"",
+//         "name":"Mazeda",
+//         "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript, PSD to HTML",
+//         "Description":"",
+//         "Details":"" 
+//     },
 
-    {
-        "id":4,
-        "images":"",
-        "name":"Basma",
-        "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript, PDF to HTML",
-        "Description":"",
-        "Details":""  
-    },
+//     {
+//         "id":4,
+//         "images":"",
+//         "name":"Basma",
+//         "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript, PDF to HTML",
+//         "Description":"",
+//         "Details":""  
+//     },
 
-    {
-        "id":4,
-        "images":"",
-        "name":"Nusrat",
-        "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript, Figma to HTML",
-        "Description":"",
-        "Details":"" 
-    } 
-]
+//     {
+//         "id":4,
+//         "images":"",
+//         "name":"Nusrat",
+//         "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript, Figma to HTML",
+//         "Description":"",
+//         "Details":"" 
+//     } 
+// ]

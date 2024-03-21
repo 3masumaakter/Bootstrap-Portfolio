@@ -1,26 +1,26 @@
-function Portfolio(){
-    fetch("portfolio.json")
-    .then(res => res.json())
-    .then(data => displayPortfolio(data))
+function porfolios(){
+    fetch('./portfolio.json')
+    .then(res => res.json)
+    .then(data => displayUsers(data))
+// }
 
-}
-Portfolio();
-const displayPortfolio = (data) =>{
-    const allportfolio = document.getElementById('Portfolio');
-    for(const portfolio of data){
-        const div = document.createElement('div');
-        div.classList.add("portfolio")  
-         div.innerHTML = `
-        
-        <div class="">
-        <img src="images/3.jpg" class="card-img-top" alt="...">
-        </div>
-        `;
-    
-        allportfolio.appendChild(div);
-        console.log(portfolio);
-        }
-        }
+// porfolios();
+
+// function displayUsers(data){
+//     const seeDetails = document.getElementById('portfolios')
+//     for(const users of data){
+//         const div = document.createElement('div')
+//         div.innerHTML = `
+//         <div class="">
+//       <img src="images/1.jpg" class="card-img-top" alt="...">
+//     </div>
+//         `;
+//         div.classList.add('portfolios')
+//         seeDetails.appendChild(div);
+//         console.log(users);
+//     }
+
+// }
         
 
 
