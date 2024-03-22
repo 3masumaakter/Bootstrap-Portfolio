@@ -1,33 +1,3 @@
-function porfolios(){
-    fetch('./portfolio.json')
-    .then(res => res.json)
-    .then(data => displayUsers(data))
-// }
-
-// porfolios();
-
-// function displayUsers(data){
-//     const seeDetails = document.getElementById('portfolios')
-//     for(const users of data){
-//         const div = document.createElement('div')
-//         div.innerHTML = `
-//         <div class="">
-//       <img src="images/1.jpg" class="card-img-top" alt="...">
-//     </div>
-//         `;
-//         div.classList.add('portfolios')
-//         seeDetails.appendChild(div);
-//         console.log(users);
-//     }
-
-// }
-        
-
-
-
-
-
-
 
 
 
