@@ -1,4 +1,27 @@
+function projects(){
+    fetch('./portfolio.json')
+    .then(res => res.json())
+    .then(data => displayUsers(data))
+}
+projects();
 
+function displayUsers(data){
+    const seeDetails = document.getElementById('projects')
+ for(const users of data){
+    const div =document.createElement('div');
+    div.innerHTML=`
+    <img src="${users.image}"/>
+    <h3>${users.title}</h3>
+    <p>${users.descreption}</p>
+   <button>${users.github}</button>
+   <button>${users.netlify}</button>
+    `;
+    div.classList.add('projects')
+    seeDetails.appendChild(div);
+ 
+ console.log(users);
+ }
+}
 
 
 //----------------form area start----------------//

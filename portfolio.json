@@ -1,12 +1,13 @@
 [
     
     {
-        "id":1,
-        "images":"",
-        "name":"Masuma",
-        "skill":"HTML, CSS, Bootstrap, tailwind CSS, JavaScript",
-        "Description":"",
-        "Details":""
+        "id" : 1,
+        "image" :"https://ibb.co/WxSj8GG",
+        "title" :"Ana Lee",
+        "descreption" :"A webpage using html & CSS.Here we use simple CSS animation that you might love.",
+        "about" :"",
+        "github":"https://github.com/3masumaakter/HTML-CSS-Landing-Page-01",
+        "netlify" :"https://statuesque-nougat-0e2377.netlify.app"
     } ,
 
     {
